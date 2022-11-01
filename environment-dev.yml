@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # dev environment
+  - python=3.10
+  - pytest
+  - pytest-cov
+  - black
+  - flake8
+  - hatch
+  - build
