@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # dev environment
+  - pytest
+  - black
+  - flake8
+  - python=3.10
+  # add project dependencies below
